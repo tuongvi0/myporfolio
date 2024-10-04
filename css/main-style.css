@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+button {
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #cfef00;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #c4e201;
+}
+
+button > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover svg {
+  transform: translateX(5px);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.glassy
+{background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.6px);
+-webkit-backdrop-filter: blur(7.6px);
+	border: 1px solid rgba(255, 255, 255, 0.19);}
+
+.section { min-height: 100vh}
+
+
+#hero.front
+{position: absolute;
+width: 70%;
+left: 15%;
+bottom: 50px
+}
+
+*{scroll-behavior: smooth}
+
+p {color: rgba(0,0,0,0.5)}
+h1,h2, h3 {color:rgba (0,0,0,0.9)}
+
+.hero {
+	background-image: url( "../images/1.png");
+	
+	background-position: center top;
+
+	background-size: 900px 
+	
+}
+
+.round-pill {boader-radius}
+/*gallery*/
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #ffde59;
+    color: black;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{ margin-bottom: 30px;}
+
+section { min-height: 100vh}
